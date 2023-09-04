@@ -30,10 +30,10 @@
   <!-- android -->
   <platform name="android">
     <preference name="PLAY_SERVICES_VERSION" default="18.0.0"/>
-    <preference name="PLAY_SERVICES_AUTH_VERSION" default="$PLAY_SERVICES_VERSION"/>
-    <preference name="PLAY_SERVICES_IDENTITY_VERSION" default="$PLAY_SERVICES_VERSION"/>
-    <framework src="com.google.android.gms:play-services-auth:$PLAY_SERVICES_AUTH_VERSION" />
-    <framework src="com.google.android.gms:play-services-identity:$PLAY_SERVICES_IDENTITY_VERSION" />
+    <preference name="PLAY_SERVICES_AUTH_VERSION" default="18.0.0"/>
+    <preference name="PLAY_SERVICES_IDENTITY_VERSION" default="18.0.0"/>
+    <framework src="com.google.android.gms:play-services-auth:18.0.0" />
+    <framework src="com.google.android.gms:play-services-identity:18.0.0" />
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="GooglePlus">
